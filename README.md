@@ -12,7 +12,7 @@ clone the project to your home computer using
 
 alternatively, download the project using [this link](https://bitbucket.org/khufkens/spatial-panel-analysis-method-spam/get/master.zip).
 
-In R set the working path to the R script folder and source the FOTO script file in R.
+In R set the working path to the R script folder and source the SPAM script file in R.
 
 	setwd(/foo/bar/R)
 	source(/foo/bar/R/panel_analysis.r)
