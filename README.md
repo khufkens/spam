@@ -1,7 +1,8 @@
-# fixed effects panel analysis function
+# fixed effects Spatial Panel Analysis Method (SPAM)
 
-This is a fixed effects panel analysis function
+This is a fixed effects panel analysis function. It uses a method from econometrics to detect trends over time across a window of pixels. This increases the robustness of trend analysis as compared to a pixel by pixel analysis. An added benefit is the speed you gain as you downscale the original data by a factor defined by the panel size used.
 
+The function makes use of the Panel Data Econometrics "plm" package in R. A detailed overview can be found in [this publication](http://www.jstatsoft.org/v27/i02/paper).
 
 ## Installation
 
