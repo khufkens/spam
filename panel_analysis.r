@@ -35,6 +35,9 @@ panel_analysis <- function(r=rasterfile,panel_size=10,cpu=6,filename="",plot=TRU
     r_array = r
   }
   
+  # this is MODIS snow cover trend specific
+  r_array[r_array <= 15 ] = NA
+  
   # setup parallel backend if more than
   # 1 cpu is requested
   if (cpu > 1){
