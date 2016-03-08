@@ -6,11 +6,7 @@ The function makes use of the Panel Data Econometrics "plm" package in R. A deta
 
 ## Installation
 
-clone the project to your home computer using
-
-	git clone https://khufkens@bitbucket.org/khufkens/spatial-panel-analysis-method-spam.git
-
-alternatively, download the project using [this link](https://bitbucket.org/khufkens/spatial-panel-analysis-method-spam/get/master.zip).
+Download and unzip the project in a local directory.
 
 In R set the working path to the R script folder and source the SPAM script file in R.
 
